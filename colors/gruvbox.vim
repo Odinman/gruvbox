@@ -1022,6 +1022,14 @@ hi! link pythonConditional GruvboxRed
 hi! link pythonRepeat GruvboxRed
 hi! link pythonDottedName GruvboxGreenBold
 
+" custom for python:
+hi pythonMagic    guibg=NONE guifg=#8e44ad gui=NONE
+hi link pythonDef            Operator
+hi link pythonDocstring      Comment
+hi link pythonSpecial        Boolean
+hi link pythonDecorator      Type
+hi link pythonAs             PreProc
+
 " }}}
 " CSS: {{{
 
